@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* 아웃로그인 스킨 */
+.s_ol{position:relative;border-bottom:1px solid #f6f6f6}
+.s_ol h2{width:100%;padding:10px 0;line-height:30px;font-size:14px;font-weight:600;color:#333;background:#fff;text-align:center}
+.s_ol .join{width:50%;float:left;padding:10px 0;line-height:30px;font-size:14px;font-weight:500;color:#6e6e6e;background:#f7f7f7;text-align:center}
+.s_ol #s_ol_be_cate:after{display:block;visibility:hidden;clear:both;content:""}
+.s_ol form{padding:5px 20px}
+.s_ol a.btn_admin{display:inline-block;padding:0 10px;height:25px;text-decoration:none;line-height:25px;vertical-align:middle} /* 관리자 전용 버튼 */
+.s_ol a.btn_admin:focus, .s_ol a.btn_admin:hover{text-decoration:none}
+
+#s_ol_before{}
+#s_ol_before:after{display:block;visibility:hidden;clear:both;content:""}
+#s_ol_before .s_ol_wr{position:relative;margin-bottom:5px}
+#ol_id{display:block;width:100%;border:1px solid #e9e9e9;padding:0 10px;height:35px;font-size:13px;margin-bottom:5px}
+#ol_pw{display:block;width:100%;border:1px solid #e9e9e9;padding:0 10px;height:35px;font-size:13px;margin-bottom:5px}
+#ol_submit{width:100%;height:35px;background:#d62828;border-left:1px solid #ccc;font-size:13px;font-weight:500;color:#fff}
+#ol_svc{float:right;line-height:20px;margin:5px 0}
+#ol_svc a{display:inline-block;border:1px solid #e9e9e9;font-size:12px;font-weight:400;color:#333;padding:0 5px}
+#ol_auto{float:left;line-height:15px;margin:8px 0}
+#ol_auto > span{display: inline-block;line-height:15px;vertical-align: top;font-size: 12px;}
+#ol_auto label{color:#555;vertical-align: middle;display:inline-block;font-size:13px}
+#ol_auto input{width:13px;height:13px} 
+.ol_auto_wr:after{display:block;visibility:hidden;clear:both;content:""}
+#sns_login{margin-top:0 !important;border-top:0 !important}
+#sns_login h3{position:absolute;font-size:0;line-height:0;overflow:hidden}
+
+#s_ol_after{border-bottom:1px solid #f6f6f6}
+#s_ol_after_hd{position:relative;padding:10px;padding-left:80px;height:80px}
+#s_ol_after_hd strong{display:block;margin:5px 0 10px;font-size:14px;font-weight:500;letter-spacing:-0.5px}
+#s_ol_after_hd .profile_img{position:absolute;top:50%;left:15px;margin-top:-25px;display:block}
+#s_ol_after_hd .profile_img img{border-radius:50%;width:50px;height:50px}
+#s_ol_after_hd .btn_admin{position:absolute;right:0;bottom:0;width:20px;height:20px;line-height:20px;padding:0;text-align:center;border-radius:50%;background:#000;vertical-align:baseline}
+
+#s_ol_after_info{display:inline-block;padding:1px 5px;line-height:20px;font-size:12px;font-weight:400;color:#f77f00;letter-spacing:-0.5px;border:1px solid #d5d9dd}
+#s_ol_after h2{margin:0;padding:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden}
+#s_ol_after_hd .btn_b04{line-height:23px;padding:0 5px}
+#s_ol_after_private{zoom:1}
+#s_ol_after_private:after{display:block;visibility:hidden;clear:both;content:""}
+#s_ol_after_private li{text-align:left;position:relative;text-align:left}
+#s_ol_after_private li:first-child a{border-left:0}
+#s_ol_after_private a{display:block;background:#fff;color:#465168;line-height:18px;font-size:13px;padding:10px 20px 10px 25px}
+#s_ol_after_private a strong{display:inline-block;float:right;padding:0 5px;max-width:87px;font-size:13px;font-weight:500;overflow:hidden;white-space:nowrap;text-overflow:clip;color:#003049;border-radius:15px}
+#s_ol_after_private a:hover strong{background:#d62828}
+#s_ol_after_private li a:hover{color:#d62828;background:#f7f7f7}
+#s_ol_after_private li a:hover:after{position:absolute;left:0;top:0;width:2px;height:38px;background:#d62828;content:""}
+#s_ol_after_private li i{width:20px;color:#8c9eb0;margin-right:5px}
+#s_ol_after_private li:hover i{color:#d62828}
+#s_ol_after_private .win_point:hover strong{background:#f77f00;color:#fff}
+#s_ol_after_private .win_memo:hover strong{background:#f77f00;color:#fff}
+#s_ol_after_private .win_scrap:hover strong{background:#f77f00;color:#fff}
+#s_ol_after_private .win_coupon:hover strong{background:#f77f00;color:#fff}
+
+#s_ol_after_logout{display:inline-block;padding:1px 5px;line-height:20px;font-size:12px;font-weight:400;color:#8a8a8a;letter-spacing:-0.5px;border:1px solid #d5d9dd}
+#s_ol_after_logout:hover{color:#d62828}
+#ol_after_memo{margin-right:1px}
+#ol_after_pt{margin-right:1px}
+
